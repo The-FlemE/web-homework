@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+	*{
+        margin: 0;
+        padding: 0;
+    }
+	div{
+		float: left;
+	}
+	
+	#total{
+		height: 1090px;
+		width: 1560px;
+	}
+	.top{
+		height: 31px;
+		width: 1560px;
+		background-color: rgb(244,244,244);
+	}
+	.top>p{
+		line-height: 31px;
+		margin-left: 181px;
+		background-image: url(qq.gif);
+		background-repeat: no-repeat;
+		background-position: 190px 8px;
+	}
+	.top>p>span{
+		margin-left: 630px;
+	}
+	.middle1{
+		height: 162px;
+		width: 1560px;
+		background-image:url(logo.gif);
+		background-repeat: no-repeat;
+		background-position: 181px 30px;
+		border-bottom: solid 3px rgb(224,3,4);
+	}
+	.middle1>form{
+		margin: 39px 0px 0px 500px;
+	}
+	.middle1>form>input{
+		width: 407px;
+		height: 36px;
+		border: 2px solid rgb(248,56,56);
+		float: left;
+	}
+	#m1-l{
+		width: 92px;
+		height: 40px;
+		background-color: rgb(248,56,56);
+	}
+	#m1-l>p{
+		color: white;
+		line-height: 40px;
+		text-align: center;
+	}
+	#m1-r{
+		width: 150px;
+		height: 40px;
+		background-color: rgb(245,245,245);
+		margin-left: 161px;
+		border: 1px solid rgb(227,227,227);
+		background-image:url(shopping.gif);
+		background-repeat: no-repeat;
+		background-position: 23px 11px;
+	}
+	#m1-r>p{
+		line-height: 40px;
+		margin-left: 49px;
+	}
+	#m1-r>p>span{
+		color: rgb(242,95,95);
+	}
+	#m1-b{
+		width: 1560px;
+		height: 80px;
+	}
+	#m1-b>ul{
+		position: absolute;
+		top: 117px;
+		left: 207px;
+	}
+	#m1-b>ul>li{
+		margin-top: 41px;
+		border-radius: 4px;
+		display: inline-block;
+		width: 134px;
+		height: 32px;
+		line-height: 32px;
+		text-align: center;
+		float: left;
+
+	}
+	a{
+		text-decoration: none;
+        color: black;
+	}
+	#m1-b>ul>li:hover{
+		background-color: rgb(253,3,4);
+	}
+	#m1-b>ul>li>a:hover{
+		color: white;
+	}
+	.middle2{
+		height: 653px;
+		width: 1560px;
+		background-color: rgb(251,251,251);
+	}
+	.middle2>p{
+		margin-left: 181px;
+		margin-top: 28px;
+	}
+	#m2-l{
+		width: 213px;
+		height: 567px;
+		margin-left: 181px;
+		margin-top: 26px;
+	}
+	#m2-l-t{
+		background-color: white;
+		height: 44px;
+		width: 213px;
+		background-image: url(list.gif);
+		background-repeat: no-repeat;
+		background-position: 40px 13px;
+	}
+	#m2-l-t>p{
+		line-height: 44px;
+		text-align: center;
+	}
+	#m2-l-b{
+		height: 509px;
+		width: 213px;
+		background-color: white;
+		margin-top: 11px;
+	}
+	#m2-l-b>p{
+		line-height: 44px;
+		margin-left: 72px;
+	}
+	#m2-l-b>p>a:hover{
+		color: rgb(253,3,4);
+	}
+	#m2-r{
+		margin-top: 26px;
+		margin-left: 12px;
+		width: 974px;
+		height: 562px;
+		background-color: white;
+	}
+	.little{
+		margin-left: 17px;
+		width: 221px;
+		height: 252px;
+		border: 1px solid rgb(219, 219, 219);
+		margin-top: 16px;
+	}
+	.little>p{
+		text-align: center;
+	}
+	.grey{
+		color: rgb(163, 163, 163);
+	}
+	.black{
+		line-height: 36px;
+	}
+	.bottom{
+		height:248px;
+		width: 1560px;
+		background-color: rgb(46,46,46);
+	}
+	#b-t{
+		width: 1560px;
+		height: 150px;
+		border-bottom:  1px solid rgb(69,69,69);
+	}
+	li{list-style-type:none;}
+	#b-t>ul>li{
+		width: 312px;
+		height: 35px;
+		line-height: 35px;
+		float: left;
+		color: white;
+		text-align: center;
+	}
+	#b-b{
+		height: 98px;
+		width: 1560px;
+
+	}
+	#b-b>p{
+		line-height: 20px;
+		margin-top: 20px;
+		text-align: center;
+		color: rgb(152,152,152);
+	}
+	#b-b>img{
+		display: inline-block;
+		position: absolute;
+		left: 503px;
+	}
+	</style>
+</head>
+<body>
+	<div id="total">
+		<div class="top">
+			<p>我的收藏&nbsp&nbspE族之家手机版&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp328203328
+				<span>扫描加入&nbsp&nbsp&nbsp&nbsp欢迎来到E族之家，请登录 | 注册</span></p>
+		</div>
+		<div class="middle1">
+			<form>
+				<input type="text" name="search" value="请输入关键词！"/>
+				<div id="m1-l"><p>搜索</p></div>
+				<div id="m1-r"><p>购物车(<span>0</span>)件</p></div>
+				<div id="m1-b">
+					<ul>
+						<li><a href="#"><p>首页</p></a></li>
+						<li><a href="#"><p>E族生活</p></a></li>
+						<li><a href="#"><p>E族服务</p></a></li>
+						<li><a href="#"><p>E族爱心</p></a></li>
+					</ul></div>
+			</form>
+		</div>
+		<div class="middle2">
+			<p>当前位置：E族爱心>食品</p>
+			<div id="m2-l">
+				<div id="m2-l-t">
+					<p>全部分类</p>
+				</div>
+				<div id="m2-l-b">
+					<p><a href="#">>食品</a></p>
+					<p><a href="#">>生活用品</a></p>
+				</div>
+				</div>
+			<div id="m2-r">
+				<div class="little"><img src="chilli.gif" alt="chilli"/>
+					<p class="grey">精品辣椒100g</p>
+					<p class="black">￥90.00</p></div>
+				<div class="little"><img src="drink.gif" alt="drink"/>
+					<p class="grey">特级百香果3斤</p>
+					<p class="black">￥90.00</p></div>
+				<div class="little"><img src="beer.gif" alt="beer"/>
+					<p class="grey">万威啤酒500ml</p>
+					<p class="black">￥90.00</p></div>
+				<div class="little"><img src="nut.gif" alt="nut"/>
+					<p class="grey">万威啤酒500ml</p>
+					<p class="black">￥90.00</p></div>
+				<div class="little"><img src="chilli.gif" alt="chilli"/>
+					<p class="grey">精品辣椒100g</p>
+					<p class="black">￥90.00</p></div>
+				<div class="little"><img src="drink.gif" alt="drink"/>
+					<p class="grey">特级百香果3斤</p>
+					<p class="black">￥90.00</p></div>
+				<div class="little"><img src="beer.gif" alt="beer"/>
+					<p class="grey">万威啤酒500ml</p>
+					<p class="black">￥90.00</p></div>
+				<div class="little"><img src="nut.gif" alt="nut"/>
+					<p class="grey">万威啤酒500ml</p>
+					<p class="black">￥90.00</p></div>
+			</div>
+			
+		<div class="bottom">
+			<div id="b-t">
+				<ul>
+					<li>新手上路</li>
+					<li>配送方式</li>
+					<li>购物指南</li>
+					<li>售后服务</li>
+					<li>关于我们</li>
+					<li>售后流程</li>
+					<li>货到付款区域</li>
+					<li>常见问题</li>
+					<li>退换货原则</li>
+					<li>网站故障报告</li>
+					<li>购物流程</li>
+					<li>配送支付查询</li>
+					<li>订购流程</li>
+					<li>售后服务保证</li>
+					<li>联系我们</li>
+					<li>订购方式</li>
+					<li>支付方式说明</li>
+					<li>注册新会员</li>
+					<li>换货流程</li>
+					<li>投诉与建议</li>
+				</ul>
+			</div>
+			<div id="b-b">
+				<p>E族生活&nbsp&nbsp|&nbsp&nbsp居家维修保养&nbsp&nbsp|&nbsp&nbsp住宿优惠信息&nbsp&nbsp|&nbsp&nbsp出行接送&nbsp&nbsp|&nbsp&nbspE族活动&nbsp&nbsp|&nbsp&nbspE族爱心&nbsp&nbsp|&nbsp&nbsp积分商城<br/>
+				<img src="c.gif" alt="."/>
+				 2017-2018 E族之家 版权所有，并保留所有权利。ICP备案证书号：粤ICP备17127392号</p>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
